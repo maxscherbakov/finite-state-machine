@@ -1,0 +1,3 @@
+/home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles/MyMachine.dir
+/home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles/edit_cache.dir
+/home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles/rebuild_cache.dir
