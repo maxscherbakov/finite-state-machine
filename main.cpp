@@ -3,13 +3,15 @@
 
 int main() {
     int states = 2; 
-    std::string alphabet = "abc"; 
+    std:: vector <std::vector <int>> alphabet = {{1, 2, 3}, {1, 1}, {2, 2}}; 
     int state = 1; 
     int final_state = 0; 
     std::vector <std::vector <int>>  transition = {{0, 0, 0}, {0, 0, 0}};
-
-    FiniteStateMachine negr(states, alphabet, state, final_state, transition);
+    std::vector<int> str = {1, 2, 3, 2, 2};
     
-    negr.to_run("aaaaaa");
+
+    FiniteStateMachine<int> exemple(states, alphabet, state, final_state, transition);
+    
+    std:: cout << exemple.to_run(str) << std::endl;
 
 }

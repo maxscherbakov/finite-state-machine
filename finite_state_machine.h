@@ -3,23 +3,25 @@
 #include <string>
 #include <vector>
 
+template  <class Type>
 class FiniteStateMachine {
     public:
-        FiniteStateMachine(int _states, std::string _alphabet, int _state, 
+        FiniteStateMachine(int _states, std:: vector <std::vector <Type>> _alphabet, int _state, 
         int _final_state, std::vector <std::vector <int>>  _transition) {
             states = _states;
             alphabet = _alphabet;
             state = _state;
             final_state = _final_state;
             transition = _transition;
-
         }
-        bool to_run(std::string);
-        int find_char(char);
+
+        bool to_run(std::vector<Type>);
+        int find_str(std::vector<Type>);
+        int start_with(std::vector<Type>, int);
 
     private:
         int states; 
-        std:: string alphabet; 
+        std:: vector<std::vector <Type>> alphabet; 
         int state; 
         int final_state; 
         std:: vector <std::vector <int>>  transition;
