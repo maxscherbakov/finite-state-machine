@@ -7,7 +7,7 @@ int main() {
     int state = 1; 
     int final_state = 0; 
     std::vector <std::vector <int>>  transition = {{0, 0, 0}, {0, 0, 0}};
-    std::vector<int> str = {1, 2, 3, 2, 2};
+    std::vector<int> str = {1, 2, 3, 2, 2, 1};
     
 
     FiniteStateMachine<int> exemple(states, alphabet, state, final_state, transition);

@@ -39,7 +39,7 @@ bool FiniteStateMachine<Type>:: to_run(std::vector <Type> str) {
 
         } else if (str_ind == -1) return 0;
     }
-    if (state == final_state ) return 1;
+    if (state == final_state && str_now.empty()) return 1;
     else return 0;
 }
 
