@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/max/work_area/finite-state-machine/finite-state machine.cpp" "CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o" "gcc" "CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o.d"
-  "/home/max/work_area/finite-state-machine/main.cpp" "CMakeFiles/MyMachine.dir/main.cpp.o" "gcc" "CMakeFiles/MyMachine.dir/main.cpp.o.d"
+  "/home/max/work_area/finite-state-machine/laboratory work/finite-state machine.cpp" "CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o" "gcc" "CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o.d"
+  "/home/max/work_area/finite-state-machine/laboratory work/main.cpp" "CMakeFiles/MyMachine.dir/main.cpp.o" "gcc" "CMakeFiles/MyMachine.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

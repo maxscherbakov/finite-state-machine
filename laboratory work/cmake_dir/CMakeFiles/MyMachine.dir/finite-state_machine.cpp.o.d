@@ -1,7 +1,7 @@
 CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o: \
- /home/max/work_area/finite-state-machine/finite-state\ machine.cpp \
+ /home/max/work_area/finite-state-machine/laboratory\ work/finite-state\ machine.cpp \
  /usr/include/stdc-predef.h \
- /home/max/work_area/finite-state-machine/finite_state_machine.h \
+ /home/max/work_area/finite-state-machine/laboratory\ work/finite_state_machine.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

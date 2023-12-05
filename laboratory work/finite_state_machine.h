@@ -17,8 +17,6 @@ class FiniteStateMachine {
         }
 
         bool to_run(std::vector<Type>);
-        int find_str(std::vector<Type>);
-        int start_with(std::vector<Type>, int);
 
     private:
         int states; 
@@ -26,6 +24,8 @@ class FiniteStateMachine {
         int state; 
         int final_state; 
         std:: vector <std::vector <int>>  transition;
+        int find_str(std::vector<Type>);
+        int start_with(std::vector<Type>, int);
 };
 
 #endif // FINITE_STATE_MACHINE_H

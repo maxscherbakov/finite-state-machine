@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/max/work_area/finite-state-machine
+CMAKE_SOURCE_DIR = "/home/max/work_area/finite-state-machine/laboratory work"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/max/work_area/finite-state-machine/cmake_dir
+CMAKE_BINARY_DIR = "/home/max/work_area/finite-state-machine/laboratory work/cmake_dir"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/MyMachine.dir/clean
 CMakeFiles/MyMachine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyMachine.dir/build.make CMakeFiles/MyMachine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyMachine.dir/build.make CMakeFiles/MyMachine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles --progress-num=1,2,3 "Built target MyMachine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/CMakeFiles" --progress-num=1,2,3 "Built target MyMachine"
 .PHONY : CMakeFiles/MyMachine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyMachine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyMachine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/work_area/finite-state-machine/cmake_dir/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/CMakeFiles" 0
 .PHONY : CMakeFiles/MyMachine.dir/rule
 
 # Convenience name for target.

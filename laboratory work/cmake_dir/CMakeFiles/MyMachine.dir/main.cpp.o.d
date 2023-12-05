@@ -1,7 +1,7 @@
 CMakeFiles/MyMachine.dir/main.cpp.o: \
- /home/max/work_area/finite-state-machine/main.cpp \
+ /home/max/work_area/finite-state-machine/laboratory\ work/main.cpp \
  /usr/include/stdc-predef.h \
- /home/max/work_area/finite-state-machine/tests.h \
+ /home/max/work_area/finite-state-machine/laboratory\ work/tests.h \
  /usr/include/gtest/gtest.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -289,4 +289,4 @@ CMakeFiles/MyMachine.dir/main.cpp.o: \
  /usr/include/gtest/gtest-test-part.h /usr/include/gtest/gtest_prod.h \
  /usr/include/gtest/gtest-typed-test.h \
  /usr/include/gtest/gtest_pred_impl.h \
- /home/max/work_area/finite-state-machine/finite_state_machine.h
+ /home/max/work_area/finite-state-machine/laboratory\ work/finite_state_machine.h

@@ -1,6 +1,5 @@
 #include "finite_state_machine.h"
 
-
 template <class Type>
 int FiniteStateMachine<Type>:: start_with(std::vector<Type> c, int alphabet_ind) {       
     if (c.size() <= alphabet[alphabet_ind].size()) {

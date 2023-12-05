@@ -1,4 +1,4 @@
-# Install script for directory: /home/max/work_area/finite-state-machine
+# Install script for directory: /home/max/work_area/finite-state-machine/laboratory work
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/max/work_area/finite-state-machine/cmake_dir/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
