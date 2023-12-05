@@ -1,5 +1,5 @@
 #include "finite_state_machine.h"
-#include <iostream>
+
 
 template <class Type>
 int FiniteStateMachine<Type>:: start_with(std::vector<Type> c, int alphabet_ind) {       
@@ -46,3 +46,4 @@ bool FiniteStateMachine<Type>:: to_run(std::vector <Type> str) {
 
 template class FiniteStateMachine<char>;
 template class FiniteStateMachine<int>;
+template class FiniteStateMachine<std::string>;

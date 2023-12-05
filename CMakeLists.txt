@@ -9,3 +9,4 @@ file(GLOB RESOURCE CMAKE_CONFIGURE_DEPENDS
 )
 
 add_executable(MyMachine ${RESOURCE})
+target_link_libraries(MyMachine gtest gmock pthread)

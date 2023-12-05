@@ -2,6 +2,7 @@
 #define FINITE_STATE_MACHINE_H
 #include <string>
 #include <vector>
+#include <iostream>
 
 template  <class Type>
 class FiniteStateMachine {

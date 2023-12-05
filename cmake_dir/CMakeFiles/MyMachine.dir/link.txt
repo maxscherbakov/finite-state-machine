@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o CMakeFiles/MyMachine.dir/main.cpp.o -o MyMachine 
+/usr/bin/c++ CMakeFiles/MyMachine.dir/finite-state_machine.cpp.o CMakeFiles/MyMachine.dir/main.cpp.o -o MyMachine  -lgtest -lgmock -lpthread 
