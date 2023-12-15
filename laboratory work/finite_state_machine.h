@@ -17,7 +17,6 @@ class FiniteStateMachine {
         }
 
         bool to_run(std::vector<Type>);
-
     private:
         int states; 
         std:: vector<std::vector <Type>> alphabet; 
