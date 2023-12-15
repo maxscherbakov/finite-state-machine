@@ -1,0 +1,5 @@
+if(EXISTS "/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/MyMachine[1]_tests.cmake")
+  include("/home/max/work_area/finite-state-machine/laboratory work/cmake_dir/MyMachine[1]_tests.cmake")
+else()
+  add_test(MyMachine_NOT_BUILT MyMachine_NOT_BUILT)
+endif()

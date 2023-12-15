@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyMachine.dir/main.cpp.o.d"
   "MyMachine"
   "MyMachine.pdb"
+  "MyMachine[1]_tests.cmake"
 )
 
 # Per-language clean rules from dependency scanning.
